@@ -249,15 +249,18 @@ margin-right: 30px;
 .soc {
     display: flex;
     justify-content: center;
+    
 }
+
 .soc-link a{
     display: inline-flex;    
     width: 44px;
     height: 44px;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    fill: #afb1b8;
 }
 .soc-link a:hover{
     background-color: var(--accent-background-color);
@@ -272,7 +275,9 @@ margin-right: 30px;
 .clients {
     display: flex;
     justify-content:space-between;
+
 }
+
 .clients-item a {
     display: inline-flex;
     width: 170px;
@@ -282,7 +287,13 @@ margin-right: 30px;
     border-radius: 4px;
     justify-content: center;
     align-items: center;
+    fill: #afb1b8;
 }
+.clients-item a:hover{
+fill: var(--accent-text-color);
+border-color: var(--accent-text-color);
+}
+
 .clients-item:not(:last-child){
     margin-right: 30px;
 }
