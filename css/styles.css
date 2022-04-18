@@ -259,6 +259,10 @@ margin-right: 30px;
     justify-content: center;
     align-items: center;
 }
+.soc-link a:hover{
+    background-color: var(--accent-background-color);
+    fill: #FFFFFF;
+}
 
 .soc-link:not(:last-child) {
     margin-right: 10px;
@@ -302,6 +306,14 @@ margin-right: 30px;
     max-width: 100%;
     height: auto;
 }
+.examples .item:hover {
+
+box-sizing: border-box;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .examples-title {
     padding: 20px 24px;
     border-top: 0;
