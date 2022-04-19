@@ -103,7 +103,6 @@ color: var(--second-text-color);
     margin: auto 10px auto 0;
     }
 
-
 .nav-item a {
 align-items: center;
 }
@@ -262,7 +261,7 @@ margin-right: 30px;
     align-items: center;
     fill: #afb1b8;
 }
-.soc-link a:hover{
+.soc-link a:hover, .soc-link a:focus{
     background-color: var(--accent-background-color);
     fill: #FFFFFF;
 }
@@ -289,7 +288,7 @@ margin-right: 30px;
     align-items: center;
     fill: #afb1b8;
 }
-.clients-item a:hover{
+.clients-item a:hover, .clients-item a:focus{
 fill: var(--accent-text-color);
 border-color: var(--accent-text-color);
 }
@@ -317,12 +316,11 @@ border-color: var(--accent-text-color);
     max-width: 100%;
     height: auto;
 }
-.examples .item:hover {
-
-box-sizing: border-box;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-0px 4px 4px rgba(0, 0, 0, 0.06),
-1px 4px 6px rgba(0, 0, 0, 0.16);
+.examples .item:hover{
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .examples-title {
@@ -465,6 +463,6 @@ margin-right: 8px;
     fill: white;
     background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-soc .soc a:hover {
+.footer-soc .soc a:hover, .footer-soc .soc a:focus {
     background-color:var(--accent-text-color);
 }
