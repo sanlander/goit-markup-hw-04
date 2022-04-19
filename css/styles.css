@@ -461,10 +461,10 @@ margin-right: 8px;
     letter-spacing: 0.03em;
     margin: 12px 0 20px 0;
 }
-.footer-soc .soc {
-    color: white;
-}
-.footer-soc .soc-link {
+.footer-soc .soc a {
+    fill: white;
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+}
+.footer-soc .soc a:hover {
+    background-color:var(--accent-text-color);
 }
