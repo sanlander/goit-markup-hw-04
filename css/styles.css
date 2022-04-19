@@ -449,6 +449,7 @@ margin-right: 8px;
 }
 .footer-soc {
     display: inline-block;
+    position: absolute;
 }
 .footer-soc-title {
     color: var(--primary-background-color);
