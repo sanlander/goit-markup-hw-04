@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, p {
 
 .menu-nav .link:hover, .menu-nav .link:focus, .contacts .link:hover, .contacts .link:focus .menu-nav .tel:hover {
     color: var(--accent-text-color);
+    fill: var(--accent-text-color);
 }
 .contacts .link {
 color: var(--second-text-color);
