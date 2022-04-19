@@ -450,6 +450,7 @@ margin-right: 8px;
 .footer-soc {
     display: inline-block;
     position: absolute;
+    
 }
 .footer-soc-title {
     color: var(--primary-background-color);
@@ -458,8 +459,12 @@ margin-right: 8px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    margin: 0 0 20px 0;
+    margin: 12px 0 20px 0;
 }
 .footer-soc .soc {
     color: white;
+}
+.footer-soc .soc-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
