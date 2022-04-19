@@ -86,12 +86,11 @@ h1, h2, h3, h4, h5, p {
     color: var(--accent-text-color);
 }
 
-.menu-nav .link:hover, .menu-nav .link:focus, .contacts .link:hover, .contacts .link:focus .menu-nav .tel:hover {
+.menu-nav .link:hover, .menu-nav .link:focus, .contacts .link:hover, .contacts .link:focus, .contacts-item:hover, .contacts-item:focus{
     color: var(--accent-text-color);
-    fill: var(--accent-text-color);
 }
 .contacts .link {
-color: var(--second-text-color);
+    color: var(--second-text-color);
 }
 .nav-item:not(:last-child) {
     margin-right: 50px;
@@ -102,10 +101,7 @@ color: var(--second-text-color);
 
 .contacts-item {
     margin: auto 10px auto 0;
-    }
-
-.nav-item a {
-align-items: center;
+    fill: currentColor;
 }
 
 /* Section */
@@ -317,7 +313,7 @@ border-color: var(--accent-text-color);
     max-width: 100%;
     height: auto;
 }
-.examples .item:hover{
+.examples .item:hover, .examples .item:focus {
     box-sizing: border-box;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
