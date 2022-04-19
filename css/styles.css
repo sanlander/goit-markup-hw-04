@@ -442,3 +442,23 @@ margin-right: 8px;
 .footer-contacts:hover, .footer-contacts:focus {
     color: var(--accent-text-color);
 }
+
+.footer-logo-adress {
+    display: inline-block;
+    margin-right: 70px;
+}
+.footer-soc {
+    display: inline-block;
+}
+.footer-soc-title {
+    color: var(--primary-background-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin: 0 0 20px 0;
+}
+.footer-soc .soc {
+    color: white;
+}
